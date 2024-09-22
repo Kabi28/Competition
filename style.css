@@ -1,0 +1,265 @@
+body{
+    width: 100%;
+    padding: 1%;
+    font-family: "Source Sans 3", sans-serif;
+}
+.nano{
+    width: 80%;
+    margin: auto;
+    background-color: #f96699;
+    border-radius: 20px;
+}
+.nano-wrap{
+    padding: 20%;
+    
+}
+.nano-wrap h3,i{
+    text-align: center;
+}
+#icon{
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+.nano-wrap h3{
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    padding-top:20px;
+    font-weight: 600;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    background-color:#38cccc;
+    border-radius: 20px;
+}
+.about-wrap{
+    padding: 5%;
+    margin-top: 5%;
+}
+.about{
+    display: inline-block;
+    width: 44%;
+    text-align: center;
+    vertical-align: top;
+    padding: 11%;
+    color: white;
+}
+.about-text{
+    display: inline-block;
+    width: 55%;
+    text-align: center;
+    padding: 15px;
+}
+.about-text p{
+    color: white;
+    text-align: left;
+    padding-bottom: 5%;
+    font-size: 18px;
+    letter-spacing: 3;
+    line-height: 2;
+}
+.about p{
+    position: relative;
+    left: 9%;
+    color: white;
+    font-size: 24px;
+}
+span{
+    color: #99ff66;
+}
+.galary{
+    width: 100%;
+    margin-top: 4%;
+    padding: 9%;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: auto;
+    gap: 10px;
+}
+.item{
+    border-radius: 10px;
+}
+.nav{
+    margin-left: 60%;
+    padding-bottom: 4%;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #52ccd4;
+    margin: 10px;
+   
+}
+.contact{
+    background-color: #99cccc;
+    margin-top: 5%;
+    width: 85%;
+    margin: auto;
+    border-radius: 25px;
+}
+.contact-wrapper{
+    padding: 8%;
+}
+.input{
+    display: inline-block;
+    width: 40%;
+    color: white;
+    padding: 2%;
+    vertical-align: top;
+}
+.input p{
+    margin-left: 60%;
+}
+.text{
+    display: inline-block;
+    width: 40%;
+    padding: 2%;
+    line-height: 2;
+    letter-spacing: 3;
+    color: white;
+    font-size: 17px;
+}
+.text p{
+    padding-top: 4%;
+}
+.logo{
+    display: inline-block;
+    width: 19%;
+    padding: 2%;
+}
+.input input{
+    width: 80%;
+    border: none;
+    background-color: #99cccc;
+    border-bottom: solid 2px white;
+    padding-bottom: 30px;
+    vertical-align: top;
+    
+}
+#msg{
+    padding-bottom: 80px;
+}
+.icon{
+    padding-top: 15%;
+}
+.icon i{
+    padding: 0;
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    vertical-align: top;
+    color: white;
+    margin-top: 7%;
+}
+.logo p{
+    font-size: 30px;
+}
+::placeholder {
+    color:white;
+    opacity: 1; 
+  }
+  footer{
+    width: 100%;
+    text-align: center;
+    color: #b3c9e1;
+    font-size: 20px;
+    margin-top: 6%;
+  }
+@media (max-width:768px) {
+    .nano{
+        width: 96%;
+        margin: auto;
+    }
+    .about-us{
+        width: 96%;
+        margin: auto;
+    }
+    .about{
+        width: 90%;
+        margin: auto;
+
+    }
+    .about-text{
+        width: 90%;
+        margin: auto;
+    }
+    .about p{
+        position: relative;
+        left: 1%;
+        color: white;
+    }
+    .galary{
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 5%;
+
+    }
+    .image{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(6,1fr);
+        height: auto;
+    }
+    .nav{
+        width: 60%;
+        margin: 0;
+    }
+    .contact{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        text-align: left;
+        
+    }
+    .input{
+        width: 90%;
+        margin: auto;
+        text-align: left;
+
+    }
+    .text{
+        width: 90%;
+        margin: auto;
+        text-align: left;
+
+
+    }
+    
+    .logo{
+        width: 90%;
+        margin: auto;
+
+    }
+    .icon{
+        padding-top: 0;
+        text-align: center;
+        margin-top: 2%;
+        
+    }
+    .icon i{
+        width: 20px;
+        display: inline-block;
+        padding-right: 20px;
+        
+    }
+    .contact-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        order: 3;
+    }
+    .icon{
+        order: 2;
+    }
+    .text{
+        order: 1;
+    }
+   
+}
